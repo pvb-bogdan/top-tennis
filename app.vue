@@ -1,3 +1,7 @@
 <template>
-    <h1 class="text-red-500">Start project</h1>
+    <div>
+        <NuxtLayout>
+            <NuxtPage></NuxtPage>
+        </NuxtLayout>
+    </div>
 </template>
