@@ -5,16 +5,19 @@
             <div class="container mx-auto flex items-center justify-between py-4">
                 <div class="logo">
                     <a href="#hero">
-                         <span class="text-white font-bold text-2xl">TOP RACKET</span>
+                         <span class="text-white font-bold text-2xl" :class="{'text-custom-green': scrolled}">TOP RACKET</span>
                     </a>
                 </div>
                 <nav class="flex space-x-4">
-                    <a href="#hero" :class="{'text-custom-green': scrolled, 'text-white':!scrolled}" class=" hover:text-yellow-500"><span class="">HOME</span></a>
+                    <a v-for="link in navLinks" :key="link.text" :href="link.href" :class="{'text-custom-green hover:text-yellow-500': scrolled}" class="text-white">
+                        <span>{{ link.text }}</span>
+                    </a>
+                    <!-- <a href="#hero" :class="{'text-custom-green hover:text-yellow-500': scrolled}" class="text-white"><span class="">HOME</span></a>
                     <a href="#services" class="text-white hover:text-yellow-500">SERVICES</a>
                     <a href="#booking" class="text-white hover:text-yellow-500">BOOKING</a>
                     <a href="#faq" class="text-white hover:text-yellow-500">FAQ</a>
                     <a href="#about" class="text-white hover:text-yellow-500">ABOUT</a>
-                    <a href="#contact" class="text-white hover:text-yellow-500">CONTACT</a>
+                    <a href="#contact" class="text-white hover:text-yellow-500">CONTACT</a> -->
                 </nav>
             </div>
         </div>
@@ -52,8 +55,16 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 
-const scrolled = ref(false);
-const isMenuOpen = ref(false);
+const scrolled = ref(false)
+const isMenuOpen = ref(false)
+const navLinks = ref([
+    { href: '#hero', text: 'HOME' },
+    { href: '#services', text: 'SERVICES' },
+    { href: '#booking', text: 'BOOKING' },
+    { href: '#faq', text: 'FAQ' },
+    { href: '#about', text: 'ABOUT' },
+    { href: '#contact', text: 'CONTACT' }
+])
 
 const handleScroll = () => {
     scrolled.value = window.scrollY > 100;
