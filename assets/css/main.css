@@ -34,6 +34,7 @@ h1,h2,h3,h4,h5,h6{
   padding-block: 5rem;
 }
 .cta {
+  min-height: 500px;
   background-image: url(../images/first-cta-bg.jpg);
   background-repeat: no-repeat;
   background-position: top center;
