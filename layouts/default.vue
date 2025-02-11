@@ -1,7 +1,7 @@
 
 <template>
     <div class="flex flex-col min-h-screen">
-        <div :class="{'bg-white shadow-2xl': scrolled, 'bg-transparent': !scrolled}" class="hidden sm:block header fixed w-full top-0 left-0 z-50 transition-colors duration-300">
+        <div :class="{'bg-white shadow-xl border border-b-amber-50': scrolled, 'bg-transparent': !scrolled}" class="hidden sm:block header fixed w-full top-0 left-0 z-50 transition-colors duration-300">
             <div class="container mx-auto flex items-center justify-between py-4">
                 <div class="logo">
                     <a href="#hero">
@@ -58,7 +58,8 @@ import { ref, onMounted, onUnmounted } from 'vue';
 const scrolled = ref(false)
 const isMenuOpen = ref(false)
 const navLinks = ref([
-    { href: '#hero', text: 'HOME' },
+    { href: '#home', text: 'HOME' },
+    // { href: '#hero', text: 'HOME' },
     { href: '#services', text: 'SERVICES' },
     { href: '#booking', text: 'BOOKING' },
     { href: '#faq', text: 'FAQ' },
