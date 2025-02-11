@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto" id="home"> 
+  <div class="container mx-auto pt-20 pb-24" id="home"> 
     <div class="grid grid-cols-2 gap-6 items-center">
       <div class="col-span-2 sm:col-span-1 relative p-14">
         <div class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded absolute bottom-8 right-8 shadow-2xl"><h3 class="text-3xl font-semibold">Our rackets make<br/>the world’s top 10</h3></div>
