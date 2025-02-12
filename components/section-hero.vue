@@ -8,7 +8,8 @@
         <div
             class="relative z-10 flex flex-col items-center justify-center h-full text-white space-y-8 sm:w-3xl mx-auto">
             <h3 class="text-2xl">Find Your</h3>
-            <h1 class=" text-6xl sm:text-9xl text-center font-semibold sm:font-black"> Perfect Tennis Racket</h1>
+            <h1 class=" text-6xl sm:text-9xl text-center font-semibold sm:font-bold italic px-4 sm:px-0"> Perfect Tennis
+                Racket</h1>
             <p class="text-center sm:text-xl">Tired of guessing which racket is right for you? Top Racket Demo takes the
                 uncertainty out of finding your perfect match. </p>
             <hr class="border border-b-white w-3xl hidden sm:block">
