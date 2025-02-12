@@ -10,7 +10,7 @@
               <h3 class="text-3xl font-semibold uppercase">book us now!</h3>
             </div>
           </div>
-          <div class="sm:flex-1 xs:flex-none h-full">
+          <div class="sm:flex-1 xs:flex-none">
             <div class="flex justify-between items-center">
               <h2 class="font-semibold uppercase text-3xl">Book Your Racket Demo</h2>
               <h3 class="font-semibold uppercase text-2xl text-gray-100 hidden sm:block">Racket Demo Booking</h3>
