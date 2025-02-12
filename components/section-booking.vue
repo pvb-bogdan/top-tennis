@@ -1,16 +1,16 @@
 <template>
   <div id="booking">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 sm:px-0">
       <div class="grid grid-cols-1">
         <div class="sm:flex xs:flex-col gap-8 sm:gap-24">
           <div class="sm:w-1/3 xs:w-full relative">
             <img src="../assets/images/tennis-book.jpg" alt="" class=" w-full h-full object-fit rounded-2xl">
             <div
-              class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded-br-lg absolute bottom-8 -right-8 shadow-2xl ">
+              class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded-br-lg absolute bottom-8 sm:-right-8 shadow-2xl ">
               <h3 class="text-3xl font-semibold uppercase">book us now!</h3>
             </div>
           </div>
-          <div class="sm:flex-1 xs:flex-none">
+          <div class="sm:flex-1 xs:flex-none mt-8 sm:mt-0">
             <div class="flex justify-between items-center">
               <h2 class="font-semibold uppercase text-3xl">Book Your Racket Demo</h2>
               <h3 class="font-semibold uppercase text-2xl text-gray-100 hidden sm:block">Racket Demo Booking</h3>
@@ -77,7 +77,7 @@
               </div>
 
               <!-- Submit & Checkbox -->
-              <div class="flex flex-col md:flex-row md:items-center justify-between">
+              <div class="flex flex-col md:flex-row md:items-center justify-between space-y-4">
                 <button type="submit"
                   class="flex items-center bg-green-500 text-white font-medium py-2 px-6 rounded-md hover:bg-green-600 transition">
                   <i class="icon-[mdi--send] mr-2"></i> GET IN TOUCH

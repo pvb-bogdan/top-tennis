@@ -55,7 +55,11 @@ const navLinks = ref([
 ])
 
 const handleScroll = () => {
-  scrolled.value = window.scrollY > 100;
+  if (window.innerWidth > 640) {
+    scrolled.value = window.scrollY > 100;
+  } else {
+    scrolled.value = true;
+  }
 };
 
 onMounted(() => {

@@ -1,12 +1,12 @@
 <template>
   <div id="services">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 sm:px-0">
       <div class="grid grid-cols-1">
         <div class="sm:flex xs:flex-col gap-8 sm:gap-16">
           <div class="sm:w-1/3 xs:w-full relative">
             <img src="../assets/images/racket-portrait.jpg" alt="" class=" w-full h-full object-fit rounded-2xl">
             <div
-              class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded-br-lg absolute bottom-8 -right-8 shadow-2xl ">
+              class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded-br-lg absolute bottom-8 sm:-right-8 shadow-2xl ">
               <h3 class="text-3xl font-semibold">Racket Demo Event Details</h3>
             </div>
           </div>
@@ -112,10 +112,10 @@
               </div>
             </div>
           </div>
-          <div class="sm:w-1/3 xs:w-full relative">
+          <div class="sm:w-1/3 xs:w-full relative mt-8 sm:mt-0">
             <img src="../assets/images/racket-portrait-2.jpg" alt="" class=" w-full h-full object-fit rounded-2xl">
             <div
-              class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded-bl-lg absolute bottom-8 -left-8 shadow-2xl ">
+              class="bg-gray-900 text-white min-h-7 max-w-fit p-8 rounded-bl-lg absolute bottom-8 sm:-left-8 shadow-2xl ">
               <h3 class="text-3xl font-semibold">Racket Demo Event Details</h3>
             </div>
           </div>
