@@ -16,8 +16,7 @@
               <h3 class="font-semibold uppercase text-2xl text-gray-100 hidden sm:block">Racket Demo Event</h3>
             </div>
             <hr class="w-75 border-gray-200 border-solid my-4 border-b-2">
-            <div
-              class="grid grid-cols-1 xs:mt-10 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-2 md:gap-0">
+            <div class="grid grid-cols-1 xs:mt-10 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-2 md:gap-0">
               <!-- Feature 1 -->
               <div class="md:p-8 lg:p-14 flex flex-col items-center">
                 <div class="w-14 h-14 rounded-full bg-purple-200 flex items-center">
@@ -25,7 +24,8 @@
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Event Details</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
-                  <li><b>Fee:</b> Starting from £20 per person, depending on travel distance. Minimum charge of £40 per hour.                  </li>
+                  <li><b>Fee:</b> Starting from £20 per person, depending on travel distance. Minimum charge of £40 per
+                    hour. </li>
                   <li><b>Travel:</b> Travel is free for the first 15 miles or up to 3 hours of booked time.</li>
                   <li><b>Payment:</b> Refundable up to 24 hours before the event.</li>
                 </ul>
@@ -38,8 +38,8 @@
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Group Size & Duration</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
-                  <li><b>Participants:</b> Starting from 1 to 12 people.                  </li>
-                  <li><b>Duration:</b><br/>
+                  <li><b>Participants:</b> Starting from 1 to 12 people. </li>
+                  <li><b>Duration:</b><br />
                     <p class="ml-6">1 to 8 people: Maximum 2 hours.</p>
                     <p class="ml-6">9 to 12 people: Maximum 3 hours.</p>
                   </li>
@@ -65,7 +65,8 @@
                   <i class="fa-solid fa-cloud text-3xl text-gray-900"></i>
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">Event Description</h3>
-                <p class="mt-5 text-base text-gray-600">Participants will have a reasonable amount of time to try different rackets through hitting and playing games.</p>
+                <p class="mt-5 text-base text-gray-600">Participants will have a reasonable amount of time to try
+                  different rackets through hitting and playing games.</p>
               </div>
             </div>
           </div>
@@ -80,24 +81,34 @@
               <h3 class="font-semibold uppercase text-2xl text-gray-100 hidden sm:block">Racket Demo Event</h3>
             </div>
             <hr class="w-75 border-gray-200 border-solid my-4 border-b-2">
-            <div
-              class="grid grid-cols-1 xs:mt-10 sm:grid-cols-1 sm:gap-x-12 gap-y-12 md:grid-cols-1 md:gap-0">
+            <div class="grid grid-cols-1 xs:mt-10 sm:grid-cols-1 sm:gap-x-12 gap-y-12 md:grid-cols-1 md:gap-0">
               <!-- Feature 1 -->
               <div class="md:p-8 lg:p-14 flex flex-col items-center">
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-8">Additional Event Details</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
                   <li>Events are scheduled based on date availability.</li>
-                  <li>Demo rackets will be prepared with suitable overgrips and strings. Participants can also change overgrips if needed</li>
+                  <li>Demo rackets will be prepared with suitable overgrips and strings. Participants can also change
+                    overgrips if needed</li>
                   <li>
-                    <b>Damage Policy:</b> <br/>
-                    <span class="px-6">Reasonable wear and tear is acceptable.</span>
-                    <span class="px-6">Serious damage to the racket frame or paint will incur a £20 maintenance fee.</span>
+                    <b>Damage Policy:</b> <br />
+                    <span class="px-6">Reasonable wear and tear is acceptable.</span><br />
+                    <span class="px-6">Serious damage to the racket frame or paint will incur a £20 maintenance
+                      fee.</span>
                   </li>
-                  <li>The event organizer is responsible for providing access for the Top Racket Demo representative.</li>
+                  <li>The event organizer is responsible for providing access for the Top Racket Demo representative.
+                  </li>
                   <li><b>Full payment is due 24 hours before the event.</b></li>
                   <li><b>All participants agree to the terms and conditions (see attached document).</b></li>
-                  <li>Participants may need to switch rackets every 15 minutes to ensure everyone has a chance to try each one.</li>
+                  <li>Participants may need to switch rackets every 15 minutes to ensure everyone has a chance to try
+                    each one.</li>
                 </ul>
+              </div>
+              <div class="bg-gray-50 py-4 px-8 shadow rounded-md">
+                <h4 class="text-xl font-semibold">Extra Service</h4>
+                <p>Top Racket Demo could provide best price guaranteed for racket purchase ( only apply on demo racket
+                  provided model)</p>
+                <p> Extra £5 for actual racket information, including weight, balance, swing weight and twist weight
+                  (Measurement by Metortune)</p>
               </div>
             </div>
           </div>
@@ -111,7 +122,7 @@
         </div>
       </div>
     </div>
-    <section-cta class="section mt-30"/>
+    <section-cta class="section mt-30" />
   </div>
 </template>
 
