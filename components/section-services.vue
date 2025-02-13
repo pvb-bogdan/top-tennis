@@ -19,8 +19,8 @@
             <div class="grid grid-cols-1 xs:mt-10 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-2 md:gap-0">
               <!-- Feature 1 -->
               <div class="md:p-8 lg:p-14 flex flex-col items-center">
-                <div class="w-14 h-14 rounded-full bg-purple-200 flex items-center">
-                  <i class="fa-solid fa-chart-column text-3xl text-gray-900"></i>
+                <div class="w-14 h-14 rounded-full bg-purple-200 flex justify-center items-center">
+                  <icons-calendar class="size-8" />
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Event Details</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
@@ -34,7 +34,7 @@
               <!-- Feature 2 -->
               <div class="md:p-8 lg:p-14 md:border-l md:border-gray-300 flex flex-col items-center">
                 <div class="w-14 h-14 rounded-full bg-teal-200 flex justify-center items-center">
-                  <i class="fa-solid fa-truck-fast text-3xl text-gray-900"></i>
+                  <icons-group class="size-8" />
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Group Size & Duration</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
@@ -50,7 +50,7 @@
               <!-- Feature 3 -->
               <div class="md:p-8 lg:p-14 flex flex-col items-center md:border-t md:border-gray-300">
                 <div class="w-14 h-14 rounded-full bg-yellow-200 flex justify-center items-center">
-                  <i class="fa-solid fa-shield text-3xl "></i>
+                  <icons-racket class="size-8" />
                 </div>
                 <h3 class="mt-12 text-xl font-bold uppercase mb-4 text-gray-900">Equipment &amp; Location</h3>
                 <ul class="list-disc list-inside text-base  text-left space-y-4 text-gray-600">
@@ -62,7 +62,7 @@
               <!-- Feature 4 -->
               <div class="md:p-8 lg:p-14 flex flex-col md:border-t md:border-l md:border-gray-300 items-center">
                 <div class="w-14 h-14 rounded-full bg-red-200 flex justify-center items-center">
-                  <i class="fa-solid fa-cloud text-3xl text-gray-900"></i>
+                  <icons-text class="size-8" />
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">Event Description</h3>
                 <p class="mt-5 text-base text-gray-600">Participants will have a reasonable amount of time to try

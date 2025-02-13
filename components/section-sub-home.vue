@@ -5,7 +5,7 @@
         <!-- Feature 1 -->
         <div class="md:p-8 px-4 sm:px-0 lg:p-14 flex flex-col justify-center items-center">
           <div class="w-14 h-14 rounded-full bg-purple-200 flex justify-center items-center">
-            <i class="fa-solid fa-chart-column text-3xl text-gray-900"></i>
+            <iconsNoRestriction class="size-8" />
           </div>
           <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">No Restrictions</h3>
           <p class="font-medium">No Deposit, No Extra Fees</p>
@@ -18,7 +18,7 @@
         <div
           class="md:p-8 px-4 sm:px-0 lg:p-14 md:border-l md:border-gray-300 flex flex-col justify-center items-center">
           <div class="w-14 h-14 rounded-full bg-teal-200 flex justify-center items-center">
-            <i class="fa-solid fa-truck-fast text-3xl text-gray-900"></i>
+            <iconsTry class="size-8" />
           </div>
           <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">Try Before You Buy</h3>
           <p class="mt-5 text-base text-gray-600">Experience a wide selection of up to 12 rackets during a 2-3 hour
@@ -29,7 +29,7 @@
         <div
           class="md:p-8 px-4 sm:px-0 lg:p-14 md:border-l md:border-gray-300 flex flex-col justify-center items-center">
           <div class="w-14 h-14 rounded-full bg-yellow-200 flex justify-center items-center">
-            <i class="fa-solid fa-shield text-3xl text-gray-900"></i>
+            <iconsGuidance class="size-8" />
           </div>
           <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">Personalized Guidance</h3>
           <p class="mt-5 text-base text-gray-600">Receive expert advice from our ERSA-certified stringing expert to
@@ -40,7 +40,7 @@
         <div
           class="md:p-8 px-4 sm:px-0 lg:p-14 flex flex-col md:border-l md:border-gray-300 justify-center items-center">
           <div class="w-14 h-14 rounded-full bg-red-200 flex justify-center items-center">
-            <i class="fa-solid fa-cloud text-3xl text-gray-900"></i>
+            <icons-racket class="size-8" />
           </div>
           <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">Real-World Playtesting</h3>
           <p>&nbsp;</p>
