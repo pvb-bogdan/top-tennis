@@ -122,8 +122,10 @@
         </div>
       </div>
     </div>
-    <section-cta class="section mt-30" />
+    <section-follow-up class="mt-30" />
+    <section-cta class="section" />
   </div>
+
 </template>
 
 <script setup>
