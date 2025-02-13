@@ -1,6 +1,6 @@
 <template>
   <header class="fixed-navbar "
-    :class="{ 'bg-white shadow-xl border border-b-amber-600': scrolled, 'bg-transparent': !scrolled }">
+    :class="{ 'bg-white shadow-xl border border-b-green-500': scrolled, 'bg-transparent': !scrolled }">
     <div class="container mx-auto h-16 flex justify-between items-center px-4">
       <div>
         <a href="#hero">
@@ -18,9 +18,7 @@
         <small class="text-white font-light" :class="{ 'text-custom-green': scrolled }">+40 777 277 345</small>
       </a>
       <div class="toogle_btn cursor-pointer sm:hidden" @click="isMenuOpen = !isMenuOpen">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-        </svg>
+        <iconsHamburger />
       </div>
     </div>
     <div class="dropdown-menu" v-if="isMenuOpen">

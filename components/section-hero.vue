@@ -15,7 +15,10 @@
             <hr class="border border-b-white w-3xl hidden sm:block">
             <a href="#booking"
                 class="mt-6 px-12 py-4 bg-green-500 text-white rounded-xl text-3xl font-medium hover:bg-green-600 cursor-pointer">
-                <h6>BOOK US NOW!</h6>
+                <h6 class="flex gap-3 items-center">
+                    <icons-arrow-down class="size-8 animate-bounce " />
+                    BOOK US NOW!
+                </h6>
             </a>
         </div>
     </section>
