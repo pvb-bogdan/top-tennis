@@ -21,13 +21,17 @@
         <iconsHamburger />
       </div>
     </div>
-    <div class="dropdown-menu" v-if="isMenuOpen">
-      <nav class="flex space-y-4 flex-col items-center py-4">
-        <a v-for="link in navLinks" :key="link.text" :href="link.href" class="text-green-500 hover:text-yellow-500">
-          <span>{{ link.text }}</span>
-        </a>
-      </nav>
-    </div>
+    <transition enter-active-class="transition-all duration-300 ease-out"
+      leave-active-class="transition-all duration-300 ease-in" enter-from-class="opacity-0 transform translate-y-4"
+      leave-to-class="opacity-0 transform translate-y-4">
+      <div class="dropdown-menu" v-if="isMenuOpen">
+        <nav class="flex space-y-4 flex-col items-center py-4">
+          <a v-for="link in navLinks" :key="link.text" :href="link.href" class="text-green-500 hover:text-yellow-500">
+            <span>{{ link.text }}</span>
+          </a>
+        </nav>
+      </div>
+    </transition>
   </header>
 </template>
 
