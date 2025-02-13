@@ -24,22 +24,22 @@
         </div>
         <div class="col-span-3 sm:col-span-1 relative">
           <img src="../assets/images/follow.jpg" alt="" class="aspect-3/2 object-cover rounded-2xl">
-          <button
+          <a href="#details"
             class="bg-green-500 text-white p-4 rounded-lg absolute -bottom-8 left-1/2 transform -translate-x-1/2 shadow-xl cursor-pointer hover:bg-green-600 transition-all duration-300"
             @click="expandDetails = !expandDetails">
-            <h3 class="text-xl font-semibold flex items-center">
+            <h3 class="text-xl font-semibold flex items-center uppercase">
               <span class=" inline-block mr-4">
                 <IconsArrowDown class="animate-bounce" />
               </span>
               Sessions Details
             </h3>
-          </button>
+          </a>
         </div>
       </div>
       <transition enter-active-class="transition-all duration-500 ease-in-out"
         leave-active-class="transition-all duration-500 ease-in-out"
         enter-from-class="opacity-0 transform translate-y-4" leave-to-class="opacity-0 transform translate-y-4">
-        <div class="p-4 mt-24" v-show="expandDetails">
+        <div class="p-4 mt-24" v-show="expandDetails" id="details">
           <div class="grid grid-cols-1 xs:mt-10 sm:grid-cols-3 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0">
             <!-- Feature 1 -->
             <div class="md:p-8 lg:p-14 flex flex-col items-center">
