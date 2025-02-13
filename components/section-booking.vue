@@ -80,7 +80,7 @@
               <div class="flex flex-col md:flex-row md:items-center justify-between space-y-4">
                 <button type="submit"
                   class="flex items-center bg-green-500 text-white font-medium py-2 px-6 rounded-md hover:bg-green-600 transition">
-                  <i class="icon-[mdi--send] mr-2"></i> GET IN TOUCH
+                  <icons-plane class="mr-2" /> GET IN TOUCH
                 </button>
 
                 <label class="flex items-center space-x-2 text-gray-600 text-sm">
