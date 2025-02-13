@@ -29,7 +29,7 @@
             @click="expandDetails = !expandDetails">
             <h3 class="text-xl font-semibold flex items-center">
               <span class=" inline-block mr-4">
-                <IconsArrowDown />
+                <IconsArrowDown class="animate-bounce" />
               </span>
               Sessions Details
             </h3>
