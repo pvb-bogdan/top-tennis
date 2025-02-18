@@ -9,9 +9,9 @@
           </div>
           <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase">No Restrictions</h3>
           <p class="font-medium">No Deposit, No Extra Fees</p>
-          <p class="mt-5 text-base text-gray-600">Track and analyze your data with powerful analytics tools. Gain
-            valuable
-            insights for better decision-making.</p>
+          <p class="mt-5 text-base text-gray-600">
+            Test a wide selection of rackets from the top brands in the industry without spending hundreds of pounds in deposits and fees.
+          </p>
         </div>
 
         <!-- Feature 2 -->

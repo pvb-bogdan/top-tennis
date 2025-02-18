@@ -18,7 +18,7 @@
             <hr class="w-75 border-gray-200 border-solid my-4 border-b-2">
             <p class="text-gray-500">
               Ready to find your perfect racket? Fill out the form below to book your demo session with <span
-                class="text-custom-green font-semibold">Top Racket Demo</span> .
+                class="text-custom-green font-semibold">Top Tennis Demo</span> .
               Experience a variety of rackets, get expert guidance, and playtest in a real-world setting. Our sessions
               are designed to help you make an informed decision and elevate your game.
             </p>

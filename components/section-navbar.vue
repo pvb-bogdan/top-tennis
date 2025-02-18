@@ -5,7 +5,7 @@
       <div>
         <a href="#hero">
           <span class="text-white font-bold text-2xl" :class="{ 'text-custom-green': scrolled }">TOP <span
-              class="font-light">RACKET</span></span>
+              class="font-light">TENNIS DEMO</span></span>
         </a>
       </div>
       <nav class="sm:flex space-x-4 hidden">
@@ -15,7 +15,7 @@
         </a>
       </nav>
       <a href="#">
-        <small class="text-white font-light" :class="{ 'text-custom-green': scrolled }">+40 777 277 345</small>
+        <small class="text-white font-light" :class="{ 'text-custom-green': scrolled }">0777 868 55 16</small>
       </a>
       <div class="toogle_btn cursor-pointer sm:hidden" @click="isMenuOpen = !isMenuOpen">
         <iconsHamburger />

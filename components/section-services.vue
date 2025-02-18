@@ -24,10 +24,10 @@
                 </div>
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Event Details</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
-                  <li><b>Fee:</b> Starting from £20 per person, depending on travel distance. Minimum charge of £40 per
+                  <li><b>Fee:</b> from £20 per person, depending on travel distance; minimum charge of £40 per
                     hour. </li>
-                  <li><b>Travel:</b> Travel is free for the first 15 miles or up to 3 hours of booked time.</li>
-                  <li><b>Payment:</b> Refundable up to 24 hours before the event.</li>
+                  <li><b>Travel:</b> free for the first 15 miles or up to 3 hours of booked time.</li>
+                  <!-- <li><b>Payment:</b> refundable up to 24 hours before the event.</li> -->
                 </ul>
               </div>
 
@@ -36,14 +36,14 @@
                 <div class="w-14 h-14 rounded-full bg-teal-200 flex justify-center items-center">
                   <icons-group class="size-8" />
                 </div>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Group Size & Duration</h3>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-4">Group Size &amp; Duration</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
-                  <li><b>Participants:</b> Starting from 1 to 12 people. </li>
+                  <li><b>Participants:</b> 1 to 12 people. </li>
                   <li><b>Duration:</b><br />
-                    <p class="ml-6">1 to 8 people: Maximum 2 hours.</p>
-                    <p class="ml-6">9 to 12 people: Maximum 3 hours.</p>
+                    <p class="ml-6">1 to 8 people: maximum 2 hours.</p>
+                    <p class="ml-6">9 to 12 people: maximum 3 hours.</p>
                   </li>
-                  <li><b>Payment:</b> Refundable up to 24 hours before the event.</li>
+                  <!-- <li><b>Payment:</b> refundable up to 24 hours before the event.</li> -->
                 </ul>
               </div>
 
@@ -54,8 +54,8 @@
                 </div>
                 <h3 class="mt-12 text-xl font-bold uppercase mb-4 text-gray-900">Equipment &amp; Location</h3>
                 <ul class="list-disc list-inside text-base  text-left space-y-4 text-gray-600">
-                  <li><b>Rackets:</b> 8-12 rackets provided, depending on availability and condition. </li>
-                  <li><b>Location: </b> Booked and organized by the event organizer.</li>
+                  <li><b>Rackets:</b> 8-12 rackets of your choice, depending on availability and condition. </li>
+                  <li><b>Location: </b> booked and organized by the event organizer.</li>
                 </ul>
               </div>
 
@@ -78,7 +78,7 @@
           <div class="sm:flex-1 xs:flex-none">
             <div class="flex justify-between items-center">
               <h2 class="font-semibold uppercase text-3xl">Additional Information</h2>
-              <h3 class="font-semibold uppercase text-2xl text-gray-100 hidden sm:block">Racket Demo Event</h3>
+              <h3 class="font-semibold uppercase text-2xl text-gray-400 hidden sm:block">Racket Demo Event</h3>
             </div>
             <hr class="w-75 border-gray-200 border-solid my-4 border-b-2">
             <div class="grid grid-cols-1 xs:mt-10 sm:grid-cols-1 sm:gap-x-12 gap-y-12 md:grid-cols-1 md:gap-0">
@@ -87,15 +87,16 @@
                 <h3 class="mt-12 text-xl font-bold text-gray-900 uppercase mb-8">Additional Event Details</h3>
                 <ul class="list-disc list-inside text-base text-gray-600 text-left space-y-4">
                   <li>Events are scheduled based on date availability.</li>
-                  <li>Demo rackets will be prepared with suitable overgrips and strings. Participants can also change
-                    overgrips if needed</li>
+                  <li>Demo rackets will be prepared with suitable overgrips and strings.
+                    Participants can also change or add their own preferred overgrips.
+                  </li>
                   <li>
                     <b>Damage Policy:</b> <br />
                     <span class="px-6">Reasonable wear and tear is acceptable.</span><br />
-                    <span class="px-6">Serious damage to the racket frame or paint will incur a £20 maintenance
-                      fee.</span>
+                    <span class="px-6">Serious damage to the racket frame or paint might incur additional
+                      fees.</span>
                   </li>
-                  <li>The event organizer is responsible for providing access for the Top Racket Demo representative.
+                  <li>The event organizer is responsible for providing access for the Top Tennis Demo representative to the club / courts.
                   </li>
                   <li><b>Full payment is due 24 hours before the event.</b></li>
                   <li><b>All participants agree to the terms and conditions (see attached document).</b></li>
@@ -105,10 +106,8 @@
               </div>
               <div class="bg-gray-50 py-4 px-8 shadow rounded-md">
                 <h4 class="text-xl font-semibold">Extra Service</h4>
-                <p>Top Racket Demo could provide best price guaranteed for racket purchase ( only apply on demo racket
+                <p>Top Tennis Demo could provide best price guaranteed for racket purchase (only apply on demo racket
                   provided model)</p>
-                <p> Extra £5 for actual racket information, including weight, balance, swing weight and twist weight
-                  (Measurement by Metortune)</p>
               </div>
             </div>
           </div>

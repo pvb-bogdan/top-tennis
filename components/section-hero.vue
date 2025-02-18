@@ -10,8 +10,8 @@
             <h3 class="text-2xl">Find Your</h3>
             <h1 class=" text-6xl sm:text-9xl text-center font-semibold sm:font-bold italic px-4 sm:px-0"> Perfect Tennis
                 Racket</h1>
-            <p class="text-center sm:text-xl">Tired of guessing which racket is right for you? Top Racket Demo takes the
-                uncertainty out of finding your perfect match. </p>
+            <p class="text-center sm:text-xl">Tired of guessing which racket is right for you?<br /> We take the
+                uncertainty out of finding your perfect racket match. </p>
             <hr class="border border-b-white w-3xl hidden sm:block">
             <a href="#booking"
                 class="mt-6 px-12 py-4 bg-green-500 text-white rounded-xl text-3xl font-medium hover:bg-green-600 cursor-pointer">

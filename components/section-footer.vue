@@ -2,7 +2,7 @@
   <div class="container mx-auto">
     <div class="grid grid-cols-2">
       <div class="col-span-2 sm:col-span-1">
-        <h3 class="text-2xl font-medium">TOP RACKET TEAM</h3>
+        <h3 class="text-2xl font-medium">TOP TENNIS DEMO TEAM</h3>
         <p><small>
             Tennis professionals: certified stringers with over 15 years of experience, LTA certified tennis coach
           </small></p>
