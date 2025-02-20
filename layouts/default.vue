@@ -5,6 +5,7 @@
       <slot></slot>
       <!-- button to scroll to top -->
       <button
+        v-show="windowScrollY > windowInnerHeight"
         @click="$router.push('#hero')"
         class="fixed bottom-4 right-4 bg-gray-800 text-white p-2 rounded-full sm:block hidden shadow-lg transition-transform transform hover:scale-110 cursor-pointer"
       >
@@ -29,6 +30,16 @@
     </footer>
   </div>
 </template>
-<script setup></script>
+
+<script setup>
+const windowScrollY = ref(0)
+const windowInnerHeight = ref(0)
+onMounted(() => {
+  window.addEventListener("scroll", () => {
+    windowScrollY.value = window.scrollY
+    windowInnerHeight.value = window.innerHeight
+  })
+})
+</script>
 
 <style scoped></style>
